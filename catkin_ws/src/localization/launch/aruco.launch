@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+	<node pkg="aruco_loc" type="aruco_loc" name="aruco" output="screen">
+		<param name="show_output_video" value="true" />
+	</node>
+
+</launch>
